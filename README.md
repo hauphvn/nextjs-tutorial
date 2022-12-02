@@ -1,7 +1,14 @@
 ## next.js
-- [view youtube](https://www.youtube.com/watch?v=BeXbCgRxifs&list=PLC3y8-rFHvwgC9mj0qv972IO5DmD-H0ZH&index=15&ab_channel=Codevolution)
+- [view youtube](https://www.youtube.com/watch?v=QcUU89xKu70&list=PLC3y8-rFHvwgC9mj0qv972IO5DmD-H0ZH&index=21&ab_channel=Codevolution)
 ### foundation
 
+- ### getStaticProps contd:
+    
+    - Only on server side
+    - Do not access key API
+    - That is allowed only in page, NOT components
+    - Run at build time ( during development runs on every request)
+    - 
 - You can opt to use client-side rendering for specific components in your Next.js application by choosing to fetch data
   with React's ``useEffect()`` or  [useSWR](https://swr.vercel.app/).
 - You can opt to server-side render pages by
