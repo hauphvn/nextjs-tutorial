@@ -2,7 +2,7 @@
 export async function getAllPostIds() {
   const response = await fetch('https://jsonplaceholder.typicode.com/posts');
   const posts = await response.json();
-  return posts.map((post: any) => {
+  return posts.slice(0,50).map((post: any) => {
     return {
       params: {
         id: post.id.toString()

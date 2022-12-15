@@ -1,8 +1,11 @@
 import Layout from "components/layout";
 import { getAllPostIds, getPostById } from "pages/api/post";
+import { useRouter } from "next/router";
 
 export default function Post(postData: any) {
  const {title, userId, body} = postData;
+ const router = useRouter();
+  console.log('router: ', router.isFallback)
   return (
     <Layout>
       <div>
@@ -19,7 +22,7 @@ export async function getStaticPaths() {
   const paths = await getAllPostIds();
   return {
     paths,
-    fallback: false
+    fallback: 'blocking'
   }
 }
 

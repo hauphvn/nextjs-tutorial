@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Script from "next/script";
 import Layout from "components/layout";
+import Link from "next/link";
 
 // Call data from api
 export async function getStaticProps() {
@@ -30,9 +31,11 @@ export default function FirstPost( props: any ) {
 
     {props?.dataPost &&  props.dataPost.map((data: any) => (
       <div key={data.id}>
+      <Link href={`${data.id}`}>
         <p>UserId: {data.userId}</p>
         <p>Title: {data.title}</p>
         <p>Status: {data.complete}</p>
+      </Link>
       </div>
     ))}
     {/*<img src="/images/profile.jpg" alt="Your name"/>*/}
