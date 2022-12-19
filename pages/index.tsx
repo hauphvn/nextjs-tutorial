@@ -17,6 +17,8 @@ export default function Home() {
         post <Link href={'/posts/first-post'}>first post</Link>
         <br/>
         <Link href={'/typescript/typescript-learning'}>Typescript learning</Link>
+        <br/>
+        <Link href={'/products/dashboard-swr'}>Dashboard</Link>
       </h5>
       {/*<main className={styles.main}>*/}
       {/*  <h1 className={styles.title}>*/}

@@ -4,11 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6d84a0a-8fc6-4cc2-b0e5-39edbe19b728" name="Changes" comment="" />
+    <list default="true" id="f6d84a0a-8fc6-4cc2-b0e5-39edbe19b728" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/data/comments.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/comments.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/comments/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/events/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/products/dashboard-swr.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/products/dashboard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,7 +75,8 @@
       <workItem from="1670293273836" duration="1211000" />
       <workItem from="1670817496332" duration="666000" />
       <workItem from="1670828565820" duration="5027000" />
-      <workItem from="1671090547045" duration="4362000" />
+      <workItem from="1671090547045" duration="4404000" />
+      <workItem from="1671416588220" duration="10958000" />
     </task>
     <servers />
   </component>
