@@ -1,5 +1,5 @@
 ## next.js
-- [view youtube](https://www.youtube.com/watch?v=wqHGLjuXuHo&list=PLC3y8-rFHvwgC9mj0qv972IO5DmD-H0ZH&index=43&ab_channel=Codevolution)
+- [view youtube](https://www.youtube.com/watch?v=ZRZngn_GdXY&list=PLC3y8-rFHvwgC9mj0qv972IO5DmD-H0ZH&index=58&ab_channel=Codevolution)
 ### foundation
 
 - ### getStaticProps contd:
@@ -41,7 +41,10 @@
   ``` 
 - **Server-side Rendering**
 
+- **Styling**
 
+- NextJs support css module.
+- 
 
 [//]: # (This is a [Next.js]&#40;https://nextjs.org/&#41; project bootstrapped with [`create-next-app`]&#40;https://github.com/vercel/next.js/tree/canary/packages/create-next-app&#41;.)
 

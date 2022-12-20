@@ -1,0 +1,15 @@
+@import "color";
+.headerLayout {
+  background-color: $primary;
+  color: $orange;
+  padding: 30px;
+  font-size: 30px;
+  text-align: center;
+};
+.footerLayout {
+  background-color: $primary;
+  color: $orange;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}

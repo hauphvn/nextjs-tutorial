@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/router";
-
+import styled from 'styled-components';
 const Events = (props: any) => {
   const {events} = props;
   const router = useRouter();
@@ -15,10 +15,17 @@ const Events = (props: any) => {
   if(!eventsData || eventsData?.length === 0){
     return (<div>Loading...</div>);
   }
+  const Title = styled.h1`
+  font-size: 50px;
+  color: ${({theme}) => theme.colors.primary}
+  `
   return(
     <div>
       <Link href={'/'}>Go home</Link>
       <hr/>
+      <div>Styled compoenents
+      <Title>Title with styled component</Title>
+      </div>
       <button onClick={fetchDataByCompletedStatus}>Completed Status Filter</button>
       {eventsData && eventsData.map((event: any) => (
         <div key={event.id}>

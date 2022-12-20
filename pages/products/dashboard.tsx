@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
+import Footer from "components/Footer";
+import Head from "next/head";
 
 const Dashboard = () => {
   const [isLoading, setIsLoading] = useState(true)
@@ -21,6 +23,10 @@ const Dashboard = () => {
     </div>);
   }
   return (<div>
+    <Head>
+      <title>Dashboard</title>
+      <meta name={'description'} content={'This is my dashboard hauphvn'}/>
+    </Head>
     <Link href={'/'}>Go home</Link>
     <hr/>
     <div>Dashboard</div>
@@ -37,3 +43,10 @@ const Dashboard = () => {
   </div>)
 }
 export default Dashboard;
+
+Dashboard.getLayout = function PageLayout(page: any) {
+  return (<>
+    {page}
+    <Footer/>
+  </>)
+}
