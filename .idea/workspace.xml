@@ -5,25 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6d84a0a-8fc6-4cc2-b0e5-39edbe19b728" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/api/[[...params]].ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/api/comments/[commentId].ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/seo/[seoId].tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/seo/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/Comment.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/_color.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/preview.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/pets/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/comments.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/comments/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/comments/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/comments/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/events/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/events/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/comments/index.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/products/dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/products/dashboard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,9 +24,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="SCSS File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -54,24 +44,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/pvhau/my-projects/nextjs-tutorial/components",
-    "list.type.of.created.stylesheet": "SCSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "C:\\Users\\pvhau\\my-projects\\nextjs-tutorial\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/pvhau/my-projects/nextjs-tutorial/components&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\pvhau\\my-projects\\nextjs-tutorial\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\pvhau\my-projects\nextjs-tutorial\components" />
@@ -96,7 +86,9 @@
       <workItem from="1670817496332" duration="666000" />
       <workItem from="1670828565820" duration="5027000" />
       <workItem from="1671090547045" duration="4404000" />
-      <workItem from="1671416588220" duration="27210000" />
+      <workItem from="1671416588220" duration="27907000" />
+      <workItem from="1671588349235" duration="9564000" />
+      <workItem from="1671603529980" duration="4976000" />
     </task>
     <servers />
   </component>

@@ -1,5 +1,5 @@
 ## next.js
-- [view youtube](https://www.youtube.com/watch?v=ZRZngn_GdXY&list=PLC3y8-rFHvwgC9mj0qv972IO5DmD-H0ZH&index=58&ab_channel=Codevolution)
+- [view youtube](https://www.youtube.com/watch?v=Aiqzfmy9A_4&list=PLC3y8-rFHvwgC9mj0qv972IO5DmD-H0ZH&index=68&ab_channel=Codevolution)
 ### foundation
 
 - ### getStaticProps contd:

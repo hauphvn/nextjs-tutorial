@@ -2,8 +2,10 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Footer from "components/Footer";
 import Head from "next/head";
+import * as process from "process";
 
-const Dashboard = () => {
+const Dashboard = (props: any) => {
+  const {dataPreview} = props;
   const [isLoading, setIsLoading] = useState(true)
   const [dashboardData, setDashboardData] = useState<any>(null);
 
@@ -30,6 +32,8 @@ const Dashboard = () => {
     <Link href={'/'}>Go home</Link>
     <hr/>
     <div>Dashboard</div>
+    <div>Info process env: {process.env.NEXT_PUBLIC_ANALYTIC_ID}</div>
+    <div>Info process env: {process.env.NEXT_PUBLIC_ANALYTIC_NAME}</div>
     <hr/>
     {dashboardData && (
       <>
@@ -49,4 +53,16 @@ Dashboard.getLayout = function PageLayout(page: any) {
     {page}
     <Footer/>
   </>)
+}
+
+export async function getStaticProps(context: any) {
+  const db = process.env.DB_NAME;
+  const pwd = process.env.DB_PASS;
+  console.log(`Connect db with user: ${db} and pwd: ${pwd}`)
+  console.log('Rerender static props ', context);
+  return ({
+    props: {
+      dataPreview: 'this is data preview'
+    }
+  })
 }

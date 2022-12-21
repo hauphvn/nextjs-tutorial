@@ -1,9 +1,9 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import { ThemeProvider } from 'styled-components';
-import Header from "components/Header";
-import Footer from "components/Footer";
-import '../styles/layout.scss';
+import Header from "@/layout/Header";
+import Footer from "@/layout/Footer";
+import 'styles/layout.scss';
 const theme = {
   colors: {
     primary: '#355C7D'
