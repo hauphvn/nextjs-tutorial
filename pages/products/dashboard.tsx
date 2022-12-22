@@ -3,12 +3,12 @@ import Link from "next/link";
 import Footer from "components/Footer";
 import Head from "next/head";
 import * as process from "process";
+import { getSession, signIn } from "next-auth/react";
 
 const Dashboard = (props: any) => {
   const {dataPreview} = props;
   const [isLoading, setIsLoading] = useState(true)
   const [dashboardData, setDashboardData] = useState<any>(null);
-
   useEffect(() => {
     async function fetchDashboardData() {
       const response = await fetch('http://localhost:4000/dashboard');
@@ -17,7 +17,15 @@ const Dashboard = (props: any) => {
       setDashboardData(data);
       setIsLoading(false);
     }
-    fetchDashboardData();
+    async function securePage() {
+      const session = await getSession();
+      if(!session){
+        await signIn();
+      }else {
+     await fetchDashboardData();
+      }
+    }
+    securePage();
   }, []);
   if (isLoading) {
     return (<div>
